@@ -18,6 +18,8 @@ android {
         versionCode 1
         versionName "1.0"
 
+        buildConfigField("String","API_KEY",weather_api_key)
+        buildConfigField("String","BASE_URL",weather_base_url)
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
